@@ -1,0 +1,338 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+header{
+  background-color: #30323D;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+header img{
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(10px);
+}
+
+header a{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+header a:hover{
+  color: #A3320B;
+}
+
+.hero{
+  display: grid;
+  margin-top: 38px;
+}
+
+.hero *{
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.hero .hero-text{
+  align-self: center;
+  justify-self: center;
+  z-index: 1;
+  margin: 0;
+  padding: 2rem;
+}
+
+.location{
+  background-color: #436043;
+  padding: 1rem;
+}
+
+.location h2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.location a{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: white;
+  font-size: 1.5rem;
+  border-style: solid;
+  border-color: white;
+  border-radius: 14px;
+  padding: 0.6rem;
+}
+
+.location a:hover{
+  background-color: #A3320B;
+}
+
+.intro{
+  padding: 3rem;
+}
+
+.intro h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: #A3320B;
+  padding: 1.5rem 0;
+  background-size: 600px 100px;
+  background-repeat: no-repeat;
+  background-position: 30px -15px;
+}
+
+@media only screen and (min-width: 1200px) {
+.intro h1{
+   background-image: url(../img/introtext.png);
+}
+}
+
+.intro p{
+  font-size: 1.5rem;
+}
+
+.rooms{
+  background-color: #454750;
+  padding: 3rem;
+}
+
+.card{
+  border-style: none;
+}
+
+.rooms h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: #ffffff;
+  padding: 1.5rem 0;
+  background-size: 350px 100px;
+  background-repeat: no-repeat;
+  background-position: 0px -15px;
+}
+
+@media only screen and (min-width: 1200px) {
+.rooms h1{
+    background-image: url(../img/roomstext.png);
+}
+}
+
+.rooms h4{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: #436043;
+}
+
+.amenities{
+  padding: 3rem;
+}
+
+.amenities h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: #A3320B;
+  padding: 1.5rem 0;
+  background-size: 270px 100px;
+  background-repeat: no-repeat;
+  background-position: 0px -15px;
+}
+
+@media only screen and (min-width: 1200px) {
+.amenities h1{
+  background-image: url(../img/amenitiestext.png);
+}
+}
+
+.amenities ul{
+  font-size: 1.5rem;
+  margin-left: -0.1rem;
+  list-style: none;
+}
+
+.bar{
+  padding-top: 2rem;
+}
+
+.nearby-activities{
+  padding: 3rem;
+  padding-top: 1.5rem;
+}
+
+.nearby-activities h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: #A3320B;
+  padding: 1.5rem 0;
+  text-align: right;
+  background-image: url(../img/nearbyactivitiestext.png);
+  background-size: 400px 100px;
+  background-repeat: no-repeat;
+  background-position: 690px -15px;
+}
+
+.nearby-activities h4{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: #436043;
+}
+
+.nearby-activities .card-section{
+  background-color: #E2E2E2;
+}
+
+.services{
+  background-color: #C9E4CA;
+  padding: 3rem;
+}
+
+.services h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: #30323D;
+  padding-bottom: 1rem;
+  padding: 1.5rem 0;
+}
+
+.services h2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: #30323D;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.reservations{
+  padding: 3rem;
+}
+
+.reservations h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: #A3320B;
+  padding: 1.5rem 0;
+  background-size: 400px 100px;
+  background-repeat: no-repeat;
+  background-position: 0px -15px;
+}
+
+@media only screen and (min-width: 1200px) {
+.reservations h1{
+  background-image: url(../img/reservationstext.png);
+}
+}
+
+.reservations p{
+  font-size: 1.5rem;
+}
+
+footer{
+  padding: 3rem;
+  background-color: #30323D;
+  color: white;
+  margin-top: -1rem;
+}
+
+footer h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+footer a{
+  color: #C9E4CA;
+}
+
+footer a:hover{
+  color: #A3320B;
+}
+
+footer img{
+  width: 60%;
+}
+
+thead{
+  background-color: #C9E4CA;
+  padding: 1rem;
+  border-style: none;
+  }
+
+thead .submit{
+  background-color: #30323D;
+  border-radius: 10px;
+  content-align: center;
+  font-weight: 900;
+}
+
+thead .submit:hover{
+  background-color: #A3320B;
+}
+
+.reveal{
+  background-color: #30323D;
+  padding: 2rem;
+  border-style: none;
+}
+
+.reveal h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: white;
+}
+
+.reveal h2{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.dpd1{
+  color: #C9E4CA;
+}
+
+.dpd2{
+  color: #C9E4CA;
+}
+
+.booking{
+  background-color: #C9E4CA;
+  border: 0;
+  padding: 3rem 0;
+}
+
+.fab{
+  font-size: 1.5rem;
+  text-align: right;
+  padding: 1rem;
+}
+
+/* CODE FOR ACCESSIBLE SKIP LINK – DO NOT DELETE */
+
+.skip-link {
+  position: absolute;
+  padding: .5rem 1rem;
+  color: #fff;
+  background-color: #212121;
+  text-decoration: none;
+  z-index: 10;
+  transform: translateY(-100%);
+  transition: transform .3s ease-out;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+  outline: #fff solid .125rem;
+}
+
+@media print {
+  .skip-link {
+    display: none;
+  }
+}
